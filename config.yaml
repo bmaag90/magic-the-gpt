@@ -1,0 +1,14 @@
+train:
+  batch_size: 32 
+  epochs: 20
+  eval_interval: 1
+  learning_rate: 0.0002
+  eval_iters: 100
+  max_batches_per_epoch: 3000
+model:
+  dim_context: 256 
+  dim_embedding: 384
+  dim_feedforward: 1536
+  num_heads: 6
+  num_layers: 6
+  prob_dropout: 0.2

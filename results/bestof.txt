@@ -1,0 +1,17 @@
+mistor of finalitia, {3}{u}, creature  human wizard, {u}{u}, exile mistor of finalitia: scry 1. draw three cards., power 1, toughness 3
+demigolish, {3}{b}, creature  insect, sacrifice dark ritual: it deals 2 damage to target creature., power 3, toughness 1
+stormchaser, {2}{r}{r}, creature  human pilot, stormchaser has flying as long as you have seven or more cards in hand., power 4, toughness 1
+disciple of dermise, {2}{b}{b}, instant, destroy target creature without flying. draw a card., power nan, toughness nan
+descious horwood, {g}{g}{g}, creature  wolf, at the beginning of your upkeep, target opponent create two 2/2 green wolf creature tokens., power 8, toughness 7
+stilker's vineker, {4}{w}{w}, legendary creature  dragon, flying, double striker, vigilance creatures you control without flying have double strike., power 4, toughness 4
+banished hunter, {w}, creature  human soldier, {1}{r}: banished hunter deals 1 damage to target attacking creature., power 1, toughness 1
+rot of the wild, {4}{g}{g}{u}, sorcery, counter target spell., power nan, toughness nan
+buntier skirmisher, {1}{b}, creature  gobil rogue, {1}{b}, {t}, sacrifice a creature: return target creature card from your graveyard to the battlefield., power 1, toughness 1
+aurator of ghest-yphes, {4}{b}{b}, creature  avatar, swampwalk (this creature can't be blocked as long as defending player controls a mountain.) at the beginning of your upkeep, you lose 4 life. when you control another creature, you lose 2 life., power 5, toughness 5
+incinerator ooze, {g}{u}, creature  ooze, mutate {g} (if you cast this spell for its mutate cost, put it over or under target non-human creature you own. they mutate into the creature on top plus all abilities from under it.) flash flying whenever this creature mutates, you may return target creature to its owner's hand., power 1, toughness 1
+gruul turf tohering, {2}{r}, sorcery, target creature gets +4/+4 and gains trample until end of turn., power nan, toughness nan
+purplicate, {4}{r}, instant, creatures you control gain first strike until end of turn. draw a card., power nan, toughness nan
+brand wilder, {2}{r}, enchantment — aura, flash (you may cast this spell any time you could cast an instant.) enchant creature enchanted creature gets +2/+4 and has flying., power nan, toughness nan
+drakeshatcher giant, {3}{r}{r}, creature — giant, whenever drakeshatacher giant attacks, sacrifice it at end of combat., power 5, toughness 3
+spirit supprener, {3}{g}, creature — spirit, reach (this creature can block creatures with flying.) cascade (when you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. you may cast it without paying its mana cost. put the exiled cards on the bottom of your library in a random order.), power 6, toughness 5
+sandalspear mage, {3}{b}, creature — human samurai, deathtouch whenever you cast a noncreature spell, you may pay {b}. if you do, return sandals dagger muse from your graveyard to your hand., power 2, toughness 4
