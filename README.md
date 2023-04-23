@@ -3,7 +3,7 @@ Magic The GPT - GPT inspired model to generate Magic the Gathering cards
 
 ## Description
 
-This repo tries to answer the question if a Transformer decoder model is able to generate better Magic the Gathering cards than Wizards of the Cost.
+This project tries to answer the question if a Transformer decoder model is able to generate better Magic the Gathering cards than Wizards of the Cost.
 The model follows the description in the "Attention is all you need" paper (Vaswani et al. 2017) and is trained on MTG cards, which can be downloaded from [https://mtgjson.com/](https://mtgjson.com/).
 The cards are first pre-processed, i.e. relevant information concatentated to convert the csv file into text, and then used to train the model, which predicts the next character based on some context.
 
@@ -12,7 +12,7 @@ Finally, the model is able to generate cards like a Spirit featuring Cascade:
 spirit supprener, {3}{g}, creature — spirit, 
 reach (this creature can block creatures with flying.) 
 cascade (when you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. 
-ou may cast it without paying its mana cost. put the exiled cards on the bottom of your library in a random order.), 
+you may cast it without paying its mana cost. put the exiled cards on the bottom of your library in a random order.), 
 power 6, toughness 5
 ```
 
@@ -39,13 +39,13 @@ The notebook `train_mtGPT_model.ipynb` shows how to pre-process the data, train 
 The implementation of the different is found as follows:
 * Data preprecossing: 
     * `data_preprocessing.py`: converts the csv file into a txt file
-    * `mtg_dataset`: pytorch Dataset used for torch DataLoader
+    * `mtg_dataset`: pytorch Dataset used for pytorch training and validation DataLoader
 * Model:
     * `attention.py`: Basic attention mechanism, see Section 3.2.1 in paper
     * `feed_forward_network.py`: Simple feedforward network with 2 linear layers
     * `multi_head_attention.py`: Multi-Head attention, i.e. concatenation of multiple attention heads, see Section 3.2.2
     * `transformer_decoder.py`: Decoder stack, which combines the multi-head attention and feed-forward networks
-    * `mtgpt.py`: Implements main model class, which combines multiple transformer-decoder stacks to the final model
+    * `mtgpt.py`: Implements main model class, which combines/stacks multiple transformer-decoders to the final model
 * Utility functions:
     * `utility.py`: Different utility functions including encoding and decoding of text and tokens resp., loss estimation and saving the trained model
 
