@@ -15,3 +15,5 @@ brand wilder, {2}{r}, enchantment — aura, flash (you may cast this spell any t
 drakeshatcher giant, {3}{r}{r}, creature — giant, whenever drakeshatacher giant attacks, sacrifice it at end of combat., power 5, toughness 3
 spirit supprener, {3}{g}, creature — spirit, reach (this creature can block creatures with flying.) cascade (when you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. you may cast it without paying its mana cost. put the exiled cards on the bottom of your library in a random order.), power 6, toughness 5
 sandalspear mage, {3}{b}, creature — human samurai, deathtouch whenever you cast a noncreature spell, you may pay {b}. if you do, return sandals dagger muse from your graveyard to your hand., power 2, toughness 4
+goblin born, {3}{r}{r}, creature — beast, at the beginning of your upkeep, goblin born deals 10 damage to you., power 0, toughness 3
+hunting bully, {2}{r}, creature — human warlock, first strike sacrifice a black creature: hunting bully gets +1/+1 until end of turn. {1}{r}: hunting bully gets +1/+0 until end of turn., power 1, toughness 2

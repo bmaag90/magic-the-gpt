@@ -42,7 +42,7 @@ def estimate_loss(model, device, data_loader, eval_iters=100):
 
 def save_model_and_config(model, config):
     ''' Save model to .pth file and config to .yaml
-    Saves both files to timestamped directory
+    Saves both files to timestamped directory and returns path to directory
     '''
     str_now = datetime.now().strftime("%y%m%d%H%M")
     save_path = os.path.join('./models', str_now)
@@ -52,3 +52,5 @@ def save_model_and_config(model, config):
 
     with open(os.path.join(save_path, 'config.yaml'), 'w') as fh:
         yaml.dump(config, fh)
+
+    return save_path
